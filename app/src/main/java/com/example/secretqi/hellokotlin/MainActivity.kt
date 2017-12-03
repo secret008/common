@@ -12,6 +12,9 @@ class MainActivity : AppCompatActivity() {
         this.initView()
     }
 
+    /**
+     * Test fun
+     */
     private fun initView() {
         val text1 = findViewById<TextView>(R.id.text1)
         text1.setText(R.string.str_hello_kotlin)
